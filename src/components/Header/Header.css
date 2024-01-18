@@ -1,0 +1,23 @@
+.navigation-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    border-bottom: 4px solid black;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+
+.navigation-list li {
+    font-size: 40px;
+    padding: 10px 10px;
+    user-select: none;
+}
+.navigation-list li:hover{
+    border-radius: 15px;
+    transition: 0.5s linear;
+    color: rgb(224, 0, 142);
+    background-color: rgb(67, 8, 122);
+    cursor: pointer;
+}
